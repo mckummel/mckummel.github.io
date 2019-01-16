@@ -1,4 +1,5 @@
-﻿html, body {
+﻿html,
+body {
     height: 100%;
 }
 
@@ -21,6 +22,15 @@ h2 {
     font-weight: bold;
 }
 
+footer {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    height: 22px;
+    overflow: hidden;
+}
 
 .centered-text {
     position: absolute;
@@ -35,8 +45,8 @@ h2 {
     display: inline-block;
 }
 
-.header-link{
-    color:white;
+.header-link {
+    color: white;
 }
 
 .body-content {
@@ -78,16 +88,18 @@ textarea {
     .navbar-brand {
         margin-left: 25px;
     }
+
     .navbar-inverse .navbar-brand {
         font-size: 20px;
     }
 
-    .navbar-inverse .navbar-nav > li > a {
+    .navbar-inverse .navbar-nav>li>a {
         color: #000;
         font-size: 16px;
     }
 
-    .dropdown-menu, .dropdown-toggle {
+    .dropdown-menu,
+    .dropdown-toggle {
         font-size: 16px;
     }
 
@@ -108,16 +120,18 @@ textarea {
     .navbar-brand {
         margin-left: 50px;
     }
+
     .navbar-inverse .navbar-brand {
         font-size: 20px;
     }
 
-    .navbar-inverse .navbar-nav > li > a {
+    .navbar-inverse .navbar-nav>li>a {
         color: #000;
         font-size: 16px;
     }
 
-    .dropdown-menu, .dropdown-toggle {
+    .dropdown-menu,
+    .dropdown-toggle {
         font-size: 16px;
     }
 
@@ -138,16 +152,18 @@ textarea {
     .navbar-brand {
         margin-left: 100px;
     }
+
     .navbar-inverse .navbar-brand {
         font-size: 22px;
     }
 
-    .navbar-inverse .navbar-nav > li > a {
+    .navbar-inverse .navbar-nav>li>a {
         color: #000;
         font-size: 17px;
     }
 
-    .dropdown-menu, .dropdown-toggle {
+    .dropdown-menu,
+    .dropdown-toggle {
         font-size: 17px;
     }
 
@@ -168,16 +184,18 @@ textarea {
     .navbar-brand {
         margin-left: 150px;
     }
+
     .navbar-inverse .navbar-brand {
         font-size: 24px;
     }
 
-    .navbar-inverse .navbar-nav > li > a {
+    .navbar-inverse .navbar-nav>li>a {
         color: #000;
         font-size: 18px;
     }
 
-    .dropdown-menu, .dropdown-toggle {
+    .dropdown-menu,
+    .dropdown-toggle {
         font-size: 18px;
     }
 
@@ -192,14 +210,4 @@ textarea {
     h2 {
         font-size: 30px;
     }
-}
-
-footer {
-    font-family: 'Playfair Display', serif;
-    color: white;
-    position: absolute;
-    left: 10%;
-    bottom: 0;
-    height: 22px;
-    overflow: hidden;
 }
